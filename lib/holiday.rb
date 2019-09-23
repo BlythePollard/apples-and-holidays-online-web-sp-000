@@ -80,8 +80,8 @@ def all_holidays_with_bbq(holiday_hash)
          #map
 
 end
-#flatten
-#compact
+#flatten gets rid of nils
+#compact gets rid of multiple arrays
 end.flatten.compact
 end
 
