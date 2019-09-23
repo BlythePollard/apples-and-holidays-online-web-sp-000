@@ -77,7 +77,7 @@ def all_holidays_with_bbq(holiday_hash)
      holiday if data.include?("BBQ")
          
          #map
-end
+
 end
 end
 end
