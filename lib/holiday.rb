@@ -63,6 +63,7 @@ def all_supplies_in_holidays(holiday_hash)
      if holidays.length > 1
        holidays.each do |caps_holiday|
          caps_holiday.capitalize!.join
+      else holidays.capitalize!   
      puts "  " + holidays + ": " + data.join(", ")
 end
 end
